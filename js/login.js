@@ -22,4 +22,9 @@ inputs.forEach((input) => {
   input.addEventListener("blur", remcl);
 });
 
+function guardarDatos() {
+  var usuarioingresado = document.getElementById("usuario");
+  localStorage.setItem("usuario", JSON.stringify({usuario: usuarioingresado.value}))
+}
+
 });
