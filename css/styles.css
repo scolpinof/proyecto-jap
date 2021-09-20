@@ -143,3 +143,8 @@ a.custom-card:hover {
 .search-bar{
   margin: 0 auto;
 }
+
+#info{
+  margin: auto;
+  text-align: center;
+}
